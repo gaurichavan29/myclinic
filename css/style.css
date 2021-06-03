@@ -1,0 +1,50 @@
+body{
+	padding: 0px;
+    margin: 0px;
+    background-image: url('../images/doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.header{
+	background: #67b167;
+}
+.logo{
+	display: inline-flex !important;
+}
+
+.navbar{
+	display: inline-flex !important;
+	float: right;
+}
+.navbar ul{
+	display: flex;
+    padding: 0px;
+    margin:10px;
+    list-style: none;
+}
+.navbar li{
+	padding: 12px 22px;
+}
+.navbar a{
+	color: white !important;
+	text-decoration: none;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.logo img{
+	width: 60px;
+	height: 50px;
+}
+h1{
+	text-align:center;
+	text position:center;
+	padding: 0px;
+	margin:200px;
+}
+
+
+
