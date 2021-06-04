@@ -3,7 +3,17 @@ body{
     margin: 0px;
     background-image: url('../images/doctor.jpg');
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    letter-spacing: 1px;
+    font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	font-family: Montserrat, sans-serif;
+}
+.text-light{
+	color: #ffffff !important;
+}
+.m-0{
+	margin: 0px !important;
 }
 .header{
 	background: #67b167;
@@ -11,22 +21,33 @@ body{
 .logo{
 	display: inline-flex !important;
 }
-
+.logo>h3{
+	padding: 10px 0px;
+}
 .navbar{
 	display: inline-flex !important;
 	float: right;
 }
 .navbar ul{
 	display: flex;
+	flex-direction: row;
     padding: 0px;
-    margin:10px;
+    margin: 0px;
     list-style: none;
 }
 .navbar li{
 	padding: 12px 22px;
+	color: #ffffff;
+}
+.navbar li:hover{
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.navbar li:hover a{
+	color : #67b167 !important;
 }
 .navbar a{
-	color: white !important;
+	color: #ffffff;
 	text-decoration: none;
 }
 .capitalize{
@@ -39,11 +60,11 @@ body{
 	width: 60px;
 	height: 50px;
 }
-h1{
+.headlines{
 	text-align:center;
-	text position:center;
 	padding: 0px;
 	margin:200px;
+	color: #336733;
 }
 
 
