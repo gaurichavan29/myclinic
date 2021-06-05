@@ -45,6 +45,11 @@ h1{
 	padding: 0px;
 	margin:200px;
 }
+form h1{
+	text-align:left;
+	text position:left;
+	margin: 0px;
+}
 
 
 
