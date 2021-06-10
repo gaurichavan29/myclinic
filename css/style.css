@@ -12,6 +12,9 @@ body{
 .m-0{
 	margin: 0px !important;
 }
+.p-0{
+	padding: 0px !important;
+}
 .header{
 	background: #67b167;
 }
@@ -36,8 +39,12 @@ body{
 	padding: 12px 22px;
 	color: #ffffff;
 }
+.navbar li:hover{
+	background-color: #ffffff;
+	curser: pointer;
+}
 .navbar li:hover a{
-	color : #67b167 !important;
+      color: #67b167;
 }
 .navbar a{
 	color: #ffffff;
@@ -68,8 +75,6 @@ body{
 	padding: 0px;
 	color: #336733;
 }
-<<<<<<< HEAD
-=======
 .footer{
 	background: #67b167;
 	padding: 20px;
@@ -103,7 +108,6 @@ body{
 h5{
 	font-weight: normal !important;
 }
->>>>>>> f9e016dd1f0e0a7c196b1f908175f0d32dc5aadc
 form h1{
 	text-align:left;
 	text position:left;
