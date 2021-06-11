@@ -41,10 +41,10 @@ body{
 }
 .navbar li:hover{
 	background-color: #ffffff;
-	cursor: pointer;
+	curser: pointer;
 }
 .navbar li:hover a{
-	color : #67b167 !important;
+      color: #67b167;
 }
 .navbar a{
 	color: #ffffff;
@@ -110,7 +110,7 @@ h5{
 }
 form h1{
 	text-align:left;
-	position:left;
+	text position:left;
 	margin: 0px;
 }
 
