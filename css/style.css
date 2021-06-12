@@ -114,6 +114,7 @@ form h1{
 	margin: 5px;
 	background-color:#90EE90
 }
+<<<<<<< HEAD
 .reg-form label{
 	width:200px;
 	margin:20px;
@@ -134,6 +135,25 @@ input[type=text]{
 }
 
 
+=======
+.contact-form{
+	margin:30px;
+	padding: 10px;
+	background-color:#00CD32; 
+}
+input{
+	width:50%;
+	margin:10px;
+	padding:20;
+	text-align: left;
+
+}
+textarea{
+    margin:10px;
+	padding:20;
+	text-align: left;
+}
+>>>>>>> 47a61feceedec74520f28c0d04b74e195281439f
 
 
 
