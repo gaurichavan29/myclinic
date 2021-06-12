@@ -113,6 +113,23 @@ form h1{
 	text position:left;
 	margin: 0px;
 }
+.contact-form{
+	margin:30px;
+	padding: 10px;
+	background-color:#00CD32; 
+}
+input{
+	width:50%;
+	margin:10px;
+	padding:20;
+	text-align: left;
+
+}
+textarea{
+    margin:10px;
+	padding:20;
+	text-align: left;
+}
 
 
 
