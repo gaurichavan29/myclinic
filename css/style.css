@@ -147,6 +147,8 @@ label + input {
 .label-align input[type="checkbox"] {
   cursor: pointer;
   margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 
