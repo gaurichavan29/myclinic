@@ -23,9 +23,7 @@
         </div>
                          <form>
                          <h1>Make an appoinment</h1>
-
-	
-                            <div class="reg-form">
+                                <div class="reg-form">
                                  <form action="contact.php" method=="post">
 
                                  <label for="first name">first name:</label>
@@ -34,7 +32,7 @@
                                  <label for="last name">last name:</label>
                                  <input type="text"placeholder="cba"name="last name"required><br>
 
-                            <div>
+                            </div>
  
 
                          <div>
@@ -44,18 +42,19 @@
                              <input type="email"placeholder="phone number"name="contact"><br>
                          </div>
                          <div>
-                               <label for="gender">male</label>
-                               <input type="radio"value="choice-1"name="gender-choice">
+                             <label for="gender">male</label>
+                             <input type="radio"value="choice-1"name="gender-choice">
 
-                               <label for="gender">female</label>
-                               <input type="radio"value="choice-2"name="gender-choice">
+                            <label for="gender">female</label>
+                            <input type="radio"value="choice-2"name="gender-choice">
 
-                               <label for="gender">other</label>
-                               <input type="radio"value="choice-3"name="gender-choice"><br>
+                            <label for="gender">other</label>
+                            <input type="radio"value="choice-3"name="gender-choice">     
+                          
                          </div>
 
                          <div>
-                            <label for="month">birth date:</label>
+                            <label for="month">date of birth:</label>
                            <select name="month">
                             <option value="0" selected disabled>month</option>
                             <option value="jan">january</option>
@@ -76,9 +75,10 @@
                                 <input type="checkbox"value="choice-1"name="yes-choice">yes
                                 <input type="checkbox"value="choice-2"name="No-choice">no<br>
                        
-                                <button type="submit">submit</button>
+                                
                              </div>
                                 <h1>Appoinment Information</h1>
+                                <div>
                                   <label for="birthday">Date:</label>
                                   <input type="date" id="date" name="date">
 
@@ -90,6 +90,8 @@
                                   <input type="radio"value="doctor">doctor<br>
                                   <input type="radio"value="doctor">doctor<br>
                                   <input type="radio"value="doctor">doctor<br>
+                                  <button type="submit">submit</button>
+                              </div>
                                 
                                   
                                   </form>

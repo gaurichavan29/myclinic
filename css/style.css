@@ -114,28 +114,50 @@ form h1{
 	margin: 5px;
 	background-color:#90EE90
 }
-<<<<<<< HEAD
 .reg-form label{
-	width:200px;
-	margin:20px;
-	text position:left;
-	box-sizing: border-box;
+	display:block;
+    margin-bottom:4px;
+    position: relative; 
+    padding-left:30px; 
+    cursor: pointer;
+	
 }
-input[type=text]{
-	padding: 10px 0;
-	box-shadow:#67b167;
+label{
+	display:block;
+    margin-bottom:4px;
+    position: relative; 
+    padding-left:30px; 
+}
+	
+	input[type=text]{
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
 
+   input[type=email]{
+    pading:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
+label + input {
+  width: 30%;
+  margin: 0 10% 0 1%;
+}
+.label-align input[type="checkbox"] {
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+
 .about-section p{
 	padding:50px;
-    text-align: center;
+    text-align:center;
     background-color:#38a038; 
     color: white;
     margin-bottom: 16px;
 }
 
-
-=======
 .contact-form{
 	margin:30px;
 	padding: 10px;
@@ -153,7 +175,7 @@ textarea{
 	padding:20;
 	text-align: left;
 }
->>>>>>> 47a61feceedec74520f28c0d04b74e195281439f
+
 
 
 
