@@ -109,7 +109,7 @@ form h1{
 	text-align:left;
 	text position:left;
 	margin: 5px;
-	background-color:#90EE90
+	background-color:#90EE90;
 }
 .reg-form label{
 	display:block;
@@ -126,7 +126,7 @@ label{
 }
 label + input {
   width: 30%;
-  margin: 0 10% 0 1%;
+  margin: 0 10px 0 1px;
 }
 .label-align input[type="checkbox"] {
   cursor: pointer;

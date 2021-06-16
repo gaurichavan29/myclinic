@@ -30,19 +30,13 @@
                                  <input type="text"placeholder="abc"name="first name" required>
 
                                  <label for="last name">last name:</label>
-                                 <input type="text"placeholder="cba"name="last name"required><br>
+                                 <input type="text"placeholder="cba"name="last name"required><br><br>
 
                           <div>
-                             <label for="gender">male</label>
-                             <input type="radio"value="choice-1"name="gender-choice">
-
-                            <label for="gender">female</label>
-                            <input type="radio"value="choice-2"name="gender-choice">
-
-                            <label for="gender">other</label>
-                            <input type="radio"value="choice-3"name="gender-choice">     
-                          
-                         </div>
+                               <input type="radio" id="gender" name="gender" value="gender">male<br>
+                              <input type="radio" id="gender" name="gender" value="gender">female<br>
+                              <input type="radio" id="gender" name="gender" value="gender">other<br>
+                          </div>
                          <div>
                              <label for="email">email:</label>
                              <input type="email"placeholder="abc@gmail.com"name="email">
@@ -68,10 +62,11 @@
                             <option value="dec">december</option>
                           </select><br>
                          </div>
-                                <label for="agree">is this your first visit to our clinic</label>
-                                <input type="checkbox"value="choice-1"name="yes-choice">yes
-                                <input type="checkbox"value="choice-2"name="No-choice">no<br>
-                       
+                                <div>
+                                    is this your first visit to our clinic?<br>
+                                    <input type="checkbox" id="yes" name="yes" value="yes">yes<br>
+                                    <input type="checkbox" id="no" name="yes" value="no">no<br>
+
                                 
                              </div>
                                 <h1>Appoinment Information</h1>
@@ -90,6 +85,25 @@
                                   <button type="submit">submit</button>
                               </div>
                           </div>
+                          <div class="footer">
+            <div class="address">
+                <h3 class="m-0 p-0">My Clinic</h3>
+                <h5>Regel College, Janvali <br> Kankavli, 416602</h5>
+            </div>
+            <div class="contact">
+                <h3 class="m-0 p-0">Contact</h3>
+                <h5>Phone No. (02323) 0900 8978 <br> Mobile No. +91 9090909090 <br>email : myclinic@gmail.com</h5>
+            </div>
+            <div class="menu">
+                <h3 class="m-0 p-0">Menu</h3>
+                <h5><a href="#">home</a>
+                <a href="#">aboutus</a>
+                <a href="#">department</a>
+                <a href="#">contact</a>
+                <a href="#">FAQ</a>
+                <a href="#">administrative login</a></h5>
+            </div>
+        </div>
                                 
                                   
                                   </form>
