@@ -5,6 +5,7 @@ body{
     font: 400 15px Lato, sans-serif;
 	line-height: 1.8;
 	font-family: Montserrat, sans-serif;
+	background-color: #ebffef;
 }
 .text-light{
 	color: #ffffff !important;
@@ -41,7 +42,7 @@ body{
 }
 .navbar li:hover{
 	background-color: #ffffff;
-	curser: pointer;
+	cursor: pointer;
 }
 .navbar li:hover a{
       color: #67b167;
@@ -77,27 +78,26 @@ body{
 }
 .footer{
 	background: #67b167;
-	padding: 20px;
 	position: relative;
 	bottom: 0px;
 	width: 100%;
-}
-.footer{
 	display: flex;
 	flex-direction: row;
 }
 .address{
+	padding: 20px;
 	color: #ffffff;
 	width: 20%;
 }
 .contact{
+	padding: 20px;
 	color: #ffffff;
 	width: 50%;
 }
 .menu{
+	padding: 20px;
 	color: #ffffff;
 	width: 30%;
-	display: block;
 }
 .menu a{
 	display: block;
@@ -114,17 +114,11 @@ form h1{
 	margin: 5px;
 	background-color:#90EE90
 }
-<<<<<<< HEAD
 .reg-form label{
 	width:200px;
 	margin:20px;
 	text position:left;
 	box-sizing: border-box;
-}
-input[type=text]{
-	padding: 10px 0;
-	box-shadow:#67b167;
-
 }
 .about-section p{
 	padding:50px;
@@ -133,27 +127,69 @@ input[type=text]{
     color: white;
     margin-bottom: 16px;
 }
-
-
-=======
-.contact-form{
-	margin:30px;
-	padding: 10px;
-	background-color:#00CD32; 
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-input{
-	width:50%;
-	margin:10px;
-	padding:20;
-	text-align: left;
-
+.row{
+	display: flex;
 }
-textarea{
-    margin:10px;
-	padding:20;
-	text-align: left;
+.col{
+	flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 10px;
 }
->>>>>>> 47a61feceedec74520f28c0d04b74e195281439f
+textarea {
+    resize: none;
+}
+.contact-page-body{
+    padding: 50px 20px;
+    height: 60%;
+}
+.contact-page-body>div{
+	width: 50%;
+}
+.send-btn{
+	max-width: 25% !important;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #505050;
+    background-clip: padding-box;1
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.container{
+	margin-left: auto;
+    margin-right: auto;
+}
+.text-theme{
+	color: #336733;
+}
+.font-normal{
+	font-weight: normal;
+}
+.font-bold{
+	font-weight: bold;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
 
 
 
