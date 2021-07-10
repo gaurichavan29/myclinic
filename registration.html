@@ -1,95 +1,115 @@
 <html>
-<head>
-<title>registration form</title>
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <head>
+        <title>registration form</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="header">
-                <div class="logo">
-                    <img src="images/logo.png">
-                    <h3 class="text-light m-0">My clinic</h3>
-                </div>
-                <div class="navbar">
-                    <ul>
-                        <li class="capitalize"><a href="#">home</a></li>
-                        <li class="capitalize"><a href="#">aboutus</a></li>
-                        <li class="capitalize"><a href="#">department</a></li>
-                        <li class="capitalize"><a href="#">contact</a></li>
-                        <li class="uppercase"><a href="#">faq</a></li>
-                        <li class="capitalize"><a href="#">login</a></li>
-                    </ul>
-                </div>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png">
+                <h3 class="text-light m-0">My clinic</h3>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="capitalize"><a href="#">home</a></li>
+                    <li class="capitalize"><a href="#">aboutus</a></li>
+                    <li class="capitalize"><a href="#">department</a></li>
+                    <li class="capitalize"><a href="#">contact</a></li>
+                    <li class="uppercase"><a href="#">faq</a></li>
+                    <li class="capitalize"><a href="#">login</a></li>
+                </ul>
             </div>
         </div>
-                  <form>
-                         <h1>Make an appoinment</h1>
-                                <div class="reg-form">
-                                 <form action="contact.php" method=="post">
-                                 <label for="first name">first name:</label>
-                                 <input type="text"placeholder="abc"name="first name" required>
-
-                                 <label for="last name">last name:</label>
-                                 <input type="text"placeholder="cba"name="last name"required><br><br>
-
-                          </div>
-                               <input type="radio" id="gender" name="gender" value="gender">male<br>
-                              <input type="radio" id="gender" name="gender" value="gender">female<br>
-                              <input type="radio" id="gender" name="gender" value="gender">other<br>
-                          </div>
-                         <div>
-                             <label for="email">email:</label>
-                             <input type="email"placeholder="abc@gmail.com"name="email">
-                             <label for="contact">contact:</label>
-                             <input type="email"placeholder="phone number"name="contact"><br>
-                         </div>
-
-                         <div>
-                            <label for="month">date of birth:</label>
-                           <select name="month">
-                            <option value="0" selected disabled>month</option>
-                            <option value="jan">january</option>
-                            <option value="feb">february</option>
-                            <option value="mar">march</option>
-                            <option value="april">april</option>
-                            <option value="may">may</option>
-                            <option value="june">june</option>
-                            <option value="july">july</option>
-                            <option value="aug">august</option>
-                            <option value="sep">september</option>
-                            <option value="oct">october</option>
-                            <option value="nov">november</option>
-                            <option value="dec">december</option>
-                          </select><br>
-                         </div>
-                                <div>
-                                    is this your first visit to our clinic?<br>
-                                    <input type="checkbox" id="yes" name="yes" value="yes">yes<br>
-                                    <input type="checkbox" id="no" name="yes" value="no">no<br>
-
-                                
-                             </div>
-                                <h1>Appoinment Information</h1>
-                                <div>
-                                  <label for="birthday">Date:</label>
-                                  <input type="date" id="date" name="date">
-
-                                  <label for="appt">Choose a time for your meeting:</label>
-                                  <input type="time" id="time" name="time"><br><br>
-                                  preffered physician<br><br>
-                                  <input type="radio" value="doctor">doctor<br>
-
-                                  <input type="radio"value="doctor">doctor<br>
-                                  <input type="radio"value="doctor">doctor<br>
-                                  <input type="radio"value="doctor">doctor<br>
-                                  <button type="submit">submit</button>
-                              </div>
-                          </div>
-                <div class="footer">
+        </div>
+        <div class="container">
+            <div class="pt-5 pb-5 pl-3 pr-3">
+                <form id="appoinment-form" mothod="post" action="">
+                    <div>
+                        <h2 class="m-0 text-theme">Make an appoinment</h2>
+                        <hr><br>
+                    </div>
+                    <div class="pb-5">
+                        <div class="row">
+                            <div class="col pl-3 pr-3">
+                                <h4>First Name: </h4>
+                                <input name="firstname" type="text" class="form-control" placeholder="First Name" required>
+                            </div>
+                            <div class="col pl-3 pr-3">
+                                <h4>Last Name: </h4>
+                                <input name="lastname" class="form-control" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col pl-3 pr-3">
+                                <h4>Gender: </h4>
+                                <input type="radio" id="gender" name="gender" value="M">Male
+                                <input type="radio" id="gender" name="gender" value="F">Female
+                                <input type="radio" id="gender" name="gender" value="O">Other
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col pl-3 pr-3">
+                                <h4>Contact No.: </h4>
+                                <input name="contact" type="text" class="form-control" placeholder="Contact number" required>
+                            </div>
+                            <div class="col pl-3 pr-3">
+                                <h4>Email Address: </h4>
+                                <input name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col pl-3 pr-3">
+                                <h4>Date of birth: </h4>
+                                <input name="dateofbirth" type="date" class="form-control" required>
+                            </div>
+                            <div class="col pl-3 pr-3">
+                                <h4>Is this your first visit to our clinic?</h4>
+                                <select name="Visit" class="form-control">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="m-0 text-theme">Appoinment details</h2>
+                        <hr><br>
+                    </div>
+                    <div class="row">
+                        <div class="col pl-3 pr-3">
+                            <h4>Appointment date</h4>
+                            <input name="appoinmentDate" type="date" class="form-control" required>
+                        </div>
+                        <div class="col pl-3 pr-3">
+                            <h4>Choose a time for your meeting:</h4>
+                            <input type="time" id="time" name="time" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col pl-3 pr-3">
+                            <h4>Preffered physician</h4>
+                            <select name="Visit" class="form-control">
+                                <option value="regular checkup">Regular checkup</option>
+                                <option value="dentist">Dentist</option>
+                                <option value="cardiologist">Cardiologist</option>
+                                <option value="audiologist">Audiologist</option>
+                                <option value="gynaecologist">Gynaecologist</option>
+                                <option value="orthopaedic surgeon">Orthopaedic surgeon</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <input type="submit" class="col send-btn" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
             <div class="address">
                 <h3 class="m-0 p-0">My Clinic</h3>
                 <h5>Regel College, Janvali <br> Kankavli, 416602</h5>
@@ -107,8 +127,7 @@
                 <a href="#">FAQ</a>
                 <a href="#">administrative login</a></h5>
             </div>
-        </div>
-    </form>
+        </div>    
     </body>
 </html>
 

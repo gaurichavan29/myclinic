@@ -16,6 +16,18 @@ body{
 .p-0{
 	padding: 0px !important;
 }
+.pt-5{
+	padding-top: 3rem !important;
+}
+.pb-5{
+	padding-bottom: 3rem !important;
+}
+.pl-3{
+	padding-left: 2rem !important;
+}
+.pr-3{
+	padding-right: 2rem !important;
+}
 .header{
 	background: #67b167;
 }
