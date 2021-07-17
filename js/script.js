@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$("#regForm").hide();
+	$("#register").click(function(){
+		$("#regForm").toggle(1000);
+	});
+	$("#searchResult").hide();
+	$("#search").click(function(){
+		$("#searchResult").toggle(1000);
+	});
+});

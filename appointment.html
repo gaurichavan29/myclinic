@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="header">
+        <div class="bg-green">
             <div class="logo">
                 <img src="images/logo.png">
                 <h3 class="text-light m-0">My clinic</h3>
@@ -21,29 +21,31 @@
                     <li class="capitalize"><a href="appointment.html">appointment</a></li>
                     <li class="capitalize"><a href="services.html">services</a></li>
                     <li class="capitalize"><a href="contact.html">contact</a></li>
+                    <li class="capitalize"><a href="login.html">login</a></li>
                 </ul>
             </div>
         </div>
+        <div class="bg-green">
+            <div class="pt-5 pb-5 pl-3 pr-3 container">
+                <h1 class="m-0 text-light">Make an appoinment</h1>
+            </div>
+        </div>
         <div class="container">
-            <div class="pt-5 pb-5 pl-3 pr-3">
-                <form id="appoinment-form" mothod="post" action="">
-                    <div>
-                        <h2 class="m-0 text-theme">Make an appoinment</h2>
-                        <hr><br>
-                    </div>
+            <div class="pt-5 pb-5">
+                <form id="appoinment-form" class="text-theme" mothod="post" action="">
                     <div class="pb-5">
                         <div class="row">
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>First Name: </h4>
                                 <input name="firstname" type="text" class="form-control" placeholder="First Name" required>
                             </div>
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Last Name: </h4>
                                 <input name="lastname" class="form-control" placeholder="Last Name" required>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Gender: </h4>
                                 <input type="radio" id="gender" name="gender" value="M">Male
                                 <input type="radio" id="gender" name="gender" value="F">Female
@@ -51,21 +53,21 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Contact No.: </h4>
                                 <input name="contact" type="text" class="form-control" placeholder="Contact number" required>
                             </div>
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Email Address: </h4>
                                 <input name="email" class="form-control" placeholder="Email Address" required>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Date of birth: </h4>
                                 <input name="dateofbirth" type="date" class="form-control" required>
                             </div>
-                            <div class="col pl-3 pr-3">
+                            <div class="col">
                                 <h4>Is this your first visit to our clinic?</h4>
                                 <select name="Visit" class="form-control">
                                     <option value="yes">Yes</option>
@@ -79,17 +81,17 @@
                         <hr><br>
                     </div>
                     <div class="row">
-                        <div class="col pl-3 pr-3">
+                        <div class="col">
                             <h4>Appointment date</h4>
                             <input name="appoinmentDate" type="date" class="form-control" required>
                         </div>
-                        <div class="col pl-3 pr-3">
+                        <div class="col">
                             <h4>Choose a time for your meeting:</h4>
                             <input type="time" id="time" name="time" class="form-control" required>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col pl-3 pr-3">
+                        <div class="col">
                             <h4>Preffered physician</h4>
                             <select name="Visit" class="form-control">
                                 <option value="regular checkup">Regular checkup</option>
@@ -102,7 +104,9 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <input type="submit" class="col send-btn" value="Submit">
+                        <div class="col">
+                            <input type="submit" class="btn pl-3 pr-3" value="Submit">
+                        </div>
                     </div>
                 </form>
             </div>
